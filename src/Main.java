@@ -9,9 +9,9 @@ public class Main {
 
         Author rpo = new Author("Эрнест", " Клайн");
         Book bookRpo = new Book("Первому игроку приготовиться", rpo, 2011);
+        bookRpo.setYearPublication(2011);
         System.out.println("Название книги: " + bookRpo.getNameBook() + " Автор: "
-                + bookRpo.getAuthor().getName() + bookRpo.getAuthor().getFamiliya() + " Год публикации:  "
-                + bookRpo.getYearPublication());
+                + rpo.getName() + rpo.getFamiliya() + " Год публикации:  " + bookRpo.getYearPublication());
 
     }
 }
