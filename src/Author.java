@@ -3,17 +3,16 @@ public class Author {
         return name;
     }
 
-    private String name;
+    private final String name;
     public String getFamiliya() {
         return familiya;
     }
 
-    private String familiya;
+    private final String familiya;
     public Author(String name, String familiya) {
         this.name = name;
         this.familiya = familiya;
     }
-
 
 
 

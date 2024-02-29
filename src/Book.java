@@ -1,7 +1,8 @@
 public class Book {
-    private String nameBook;
-    private Author author;
-    private int yearPublication;
+    private final String nameBook;
+    private final Author author;
+    private final int yearPublication;
+    private int i;
 
     public Book (String nameBook, Author author, int yearPublication){
         this.nameBook = nameBook;
@@ -21,7 +22,6 @@ public class Book {
         return author;
     }
     public void setYearPublication(int i){
-
     }
 
 
