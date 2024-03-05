@@ -20,7 +20,7 @@ public class Author {
 
     @Override
     public String toString() {
-        return name + familiya;
+        return name + " " +  familiya;
     }
 
     @Override
